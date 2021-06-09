@@ -122,11 +122,9 @@ export default class ExpeditedDelivery extends Component {
                     <div class="text__block">
                       <h5 class="text__block-title">Why Us!</h5>
                       <p class="text__block-desc">
-                        ArcBest® provides best-in-class ground expedite service
-                        for your time-sensitive freight. Through our Panther
-                        Premium Logistics® fleet and a large network of capacity
-                        providers, we offer fast, efficient transportation
-                        across the U.S., Canada and Mexico. Your expedite
+                        Fastlane provides best-in-class ground expedite service
+                        for your time-sensitive freight. We offer fast,
+                        efficient transportation nationwide. Your expedite
                         freight travels on an exclusive-use vehicle, without
                         co-mingling, and arrives without interruption.
                       </p>

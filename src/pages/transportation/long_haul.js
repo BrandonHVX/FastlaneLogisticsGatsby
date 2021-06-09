@@ -88,37 +88,28 @@ export default class ExpeditedDelivery extends Component {
                     <div class="text__block mb-40">
                       <h5 class="text__block-title">Overview</h5>
                       <p class="text__block-desc">
-                        Our airfreight staff attaches great importance to
-                        customizing the booking process for our customers.
-                        That’s why we strive to find the air freight solution
-                        that best suits your needs. We’ll ask you when the
-                        freight is available, what the required delivery date
-                        is, and if there’s potential to save on time or cost.
-                        Your answers to these and other questions help us decide
-                        if you should book the air freight as direct. We'll also
-                        see if our sea-air service is a better solution for
+                        Fast delivery for regional and cross-country distances
+                        can create unique logistical challenges for B2B
+                        customers who need long haul trucking options. Here at
+                        Fastlane Logistics, we simplify the process by providing
+                        efficient and trusted transportation services for
+                        express and expedited deliveries.
                       </p>
                       <p class="text__block-desc">
-                        We have more than twenty years of experience. During
-                        that time, we’ve become expert in freight transportation
-                        by air and all its related services. We work closely
-                        with all major airlines around the world. Ongoing
-                        negotiations ensure that we always have the cargo space
-                        we need and the ability to offer you competitive rates -
-                        even during the high season.
-                      </p>
-                      <p class="text__block-desc">
-                        Where possible, we’ll erect and dismantle Unit Load
-                        Devices (ULDs), reducing significantly the risk of
-                        damage to your shipment and saving you time and expense.
-                        We can do this because many of our freight stations have
-                        their own ground transportation at or around the
-                        airport.{" "}
+                        Whether you need a sprinter van to travel across town or
+                        a large truck for cross-country trips, turn to the
+                        trucking company with years of experience in the
+                        industry. Here at Fastlane Logistics, we provide the
+                        fastest transportation options for B2B companies to keep
+                        your operations running smoothly. Contact us today to
+                        receive a quote.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div class="row"></div>
+                <div class="text__block">
+                  <h5 class="text__block-title">Service Options</h5>
+                </div>
                 <div class="row fancybox-layout2 mb-50">
                   <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="fancybox-item">
@@ -126,7 +117,7 @@ export default class ExpeditedDelivery extends Component {
                         <i class="icon-wallet"></i>
                       </div>
                       <div class="fancybox__content">
-                        <h4 class="fancybox__title">Transparent Pricing</h4>
+                        <h4 class="fancybox__title">Exclusive Vehicle Use</h4>
                       </div>
                     </div>
                   </div>
@@ -137,29 +128,7 @@ export default class ExpeditedDelivery extends Component {
                         <i class="icon-search"></i>
                       </div>
                       <div class="fancybox__content">
-                        <h4 class="fancybox__title">Real-Time Tracking</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="fancybox-item">
-                      <div class="fancybox__icon">
-                        <i class="icon-trolley"></i>
-                      </div>
-                      <div class="fancybox__content">
-                        <h4 class="fancybox__title">Warehouse Storage</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="fancybox-item">
-                      <div class="fancybox__icon">
-                        <i class="icon-package-6"></i>
-                      </div>
-                      <div class="fancybox__content">
-                        <h4 class="fancybox__title">Security For Cargo</h4>
+                        <h4 class="fancybox__title">Customized Routes</h4>
                       </div>
                     </div>
                   </div>

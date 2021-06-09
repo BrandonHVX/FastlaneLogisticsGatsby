@@ -74,10 +74,6 @@ class RootIndex extends React.Component {
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Fast & Efficient Delivery</h4>
-                  <p class="fancybox__desc">
-                    International supply chains involves challenging
-                    regulations.
-                  </p>
                 </div>
               </div>
 
@@ -87,10 +83,6 @@ class RootIndex extends React.Component {
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Daily Operations</h4>
-                  <p class="fancybox__desc">
-                    Ensure customers’ supply chains are fully compliant by
-                    practices.
-                  </p>
                 </div>
               </div>
 
@@ -100,9 +92,6 @@ class RootIndex extends React.Component {
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Next Day Lanes</h4>
-                  <p class="fancybox__desc">
-                    Depending on your product, we provide warehouse activities.
-                  </p>
                 </div>
               </div>
 
@@ -112,10 +101,6 @@ class RootIndex extends React.Component {
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Personalized Solutions</h4>
-                  <p class="fancybox__desc">
-                    High security requirements and are certified to local
-                    standards.
-                  </p>
                 </div>
               </div>
             </div>
@@ -125,10 +110,10 @@ class RootIndex extends React.Component {
         <Jumbotron fluid>
           <Container>
             <h1>Professional & Certified Experts</h1>
-            <p>
+            {/* <p>
               This is a modified jumbotron that occupies the entire horizontal
               space of its parent.
-            </p>
+            </p> */}
           </Container>
         </Jumbotron>
 

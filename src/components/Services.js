@@ -13,14 +13,14 @@ class Template extends Component {
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
               <h2 class="heading__title">
-                Delivering the Best Global Logistics Solutions.
+                Delivering the Best Logistics Solutions Nationwide.
               </h2>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 ">
               <p class="heading__desc">
-                Our global logistics expertise, advanced supply chain technology
-                & customized logistics solutions will help you analyze, develop
-                and implement successful supply chain management strategies.
+                Our nationwide logistics expertise & customized logistics
+                solutions will help you analyze, develop and implement
+                successful services tailored to your business.
               </p>
             </div>
           </div>
@@ -33,9 +33,10 @@ class Template extends Component {
                 <div class="service__content">
                   <h4 class="service__title">Expedited Delivery</h4>
                   <p class="service__desc">
-                    We can arrange and provides with the comprehensive service
-                    in the sphere of urgent, valuable, fragile or any cargoes
-                    conscientious accelerated delivery by air.
+                    Shipment delays. Pressing delivery deadlines. Last-minute
+                    orders. Freight needed yesterday. No matter your urgent
+                    shipping needs, expedited transportation is an ideal
+                    solution.
                   </p>
                   <a href="#" class="btn btn__white">
                     <span>Read More</span>
@@ -52,9 +53,9 @@ class Template extends Component {
                 <div class="service__content">
                   <h4 class="service__title">Final Mile</h4>
                   <p class="service__desc">
-                    We provides with the main types of basic conditions
-                    International sea transportation is implemented by our
-                    partners’ vessels, the largest ocean carriers.
+                    Our team will help you simplify your home delivery needs. We
+                    cater to businesses. Our final mile delivery services are
+                    customized to your needs.
                   </p>
                   <a href="#" class="btn btn__white">
                     <span>Read More</span>
@@ -71,9 +72,9 @@ class Template extends Component {
                 <div class="service__content">
                   <h4 class="service__title">Long Haul</h4>
                   <p class="service__desc">
-                    We provides with the main types of basic conditions
-                    International sea transportation is implemented by our
-                    partners’ vessels, the largest ocean carriers.
+                    Fast delivery for regional and cross-country distances can
+                    create unique logistical challenges for B2B customers who
+                    need long haul trucking options.
                   </p>
                   <a href="#" class="btn btn__white">
                     <span>Read More</span>
