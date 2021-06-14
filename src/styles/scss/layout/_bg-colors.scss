@@ -55,6 +55,12 @@
   z-index: -5;
 }
 
+.bg-img-about {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+}
+
 .bg-parallax {
   background-attachment: fixed;
   background-position: bottom;

@@ -51,108 +51,50 @@ export default class Footer extends Component {
         </div>
         <div class="footer-top">
           <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
                 <div class="footer__widget-content">
                   <img src={FastLaneLogo} alt="logo" class="footer-logo" />
                   <p>
-                    Our global Optimecs expertise, advanced supply chain
-                    technology & customized Optimecs solutions will help you
-                    develop and implement successful supply.
+                    Our nationwide logistics expertise, expedited & customized
+                    delivery solutions will serve all of your business needs.
                   </p>
                   <ul class="contact__list list-unstyled">
                     <li>
                       <span>Email:</span>
-                      <span>Optime@fastlane-transfer.com</span>
+                      <span>office@fastlane-transfer.com</span>
                     </li>
                     <li>
                       <span>Phone:</span>
+                      <span>314-422-1550</span>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-4 footer__widget footer__widget-nav">
                 <h6 class="footer__widget-title">Who We Are</h6>
                 <div class="footer__widget-content">
                   <nav>
                     <ul class="list-unstyled">
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#">Company</a>
                       </li>
+
                       <li>
-                        <a href="#">Meet Our Team</a>
-                      </li>
-                      <li>
-                        <a href="#">News & Media</a>
-                      </li>
-                      <li>
-                        <a href="#">Case Studies</a>
-                      </li>
-                      <li>
-                        <a href="#">Contacts</a>
+                        <a href="#">Services</a>
                       </li>
                       <li>
                         <a href="#">Careers</a>
                       </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
-                <h6 class="footer__widget-title">What We Do</h6>
-                <div class="footer__widget-content">
-                  <nav>
-                    <ul class="list-unstyled">
                       <li>
-                        <a href="#">Warehousing</a>
-                      </li>
-                      <li>
-                        <a href="#">Air Freight</a>
-                      </li>
-                      <li>
-                        <a href="#">Ocean Freight</a>
-                      </li>
-                      <li>
-                        <a href="#">Road Freight</a>
-                      </li>
-                      <li>
-                        <a href="#">Supply Chain</a>
-                      </li>
-                      <li>
-                        <a href="#">Packaging</a>
+                        <a href="#">Contact</a>
                       </li>
                     </ul>
                   </nav>
                 </div>
               </div>
-              <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
-                <h6 class="footer__widget-title">Who We Serve</h6>
-                <div class="footer__widget-content">
-                  <nav>
-                    <ul class="list-unstyled">
-                      <li>
-                        <a href="#">Retail & Consumer</a>
-                      </li>
-                      <li>
-                        <a href="#">Sciences & Healthcare</a>
-                      </li>
-                      <li>
-                        <a href="#">Industrial & Chemical</a>
-                      </li>
-                      <li>
-                        <a href="#">Power Generation</a>
-                      </li>
-                      <li>
-                        <a href="#">Food & Beverage</a>
-                      </li>
-                      <li>
-                        <a href="#">Oil & Gas</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-6 col-sm-6 col-md-3 col-lg-2 footer__widget footer__widget-nav">
+
+              <div class="col-6 col-sm-6 col-md-6 col-lg-4 footer__widget footer__widget-nav">
                 <h6 class="footer__widget-title">Quick Links</h6>
                 <div class="footer__widget-content">
                   <nav>
@@ -160,15 +102,11 @@ export default class Footer extends Component {
                       <li>
                         <a href="#">Request A Quote</a>
                       </li>
-                      <li>
-                        <a href="#">Track & Trace</a>
-                      </li>
+
                       <li>
                         <a href="#">Find A Location</a>
                       </li>
-                      <li>
-                        <a href="#">Global Agents</a>
-                      </li>
+
                       <li>
                         <a href="#">Help & FAQ</a>
                       </li>

@@ -22,10 +22,12 @@ import Features from "../components/Features";
 import Services from "../components/Services";
 import Cta from "../components/Cta";
 import Quote from "../components/Quote";
+import BG from "../images/backgrounds/fast-2.jpg";
 
 class RootIndex extends React.Component {
   render() {
     const images = get(this, "props.data.allFile.edges");
+    const imageData = get(this, "props.data.background.childImageSharp.fluid");
 
     return (
       <Layout>
@@ -68,54 +70,47 @@ class RootIndex extends React.Component {
         <section id="fancyboxLayout3" class="fancybox-layout3 p-0">
           <div class="container">
             <div class="row fancybox-boxes-wrap">
-              <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item ">
+              <div class="col-sm-12 col-md-4 col-lg-4 fancybox-item ">
                 <div class="fancybox__icon">
                   <i class="icon-wallet"></i>
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Fast & Efficient Delivery</h4>
+                  <p class="fancybox__desc">
+                    Freight and transportation solutions
+                  </p>
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
+              <div class="col-sm-12 col-md-4 col-lg-4 fancybox-item">
                 <div class="fancybox__icon">
                   <i class="icon-call-center"></i>
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Daily Operations</h4>
+                  <p class="fancybox__desc">
+                    100% compliant with safety practices and supply
+                    childMarkdownRemark
+                  </p>
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
+              <div class="col-sm-12 col-md-4 col-lg-4 fancybox-item">
                 <div class="fancybox__icon">
                   <i class="icon-forklift-1"></i>
                 </div>
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Next Day Lanes</h4>
-                </div>
-              </div>
-
-              <div class="col-sm-6 col-md-6 col-lg-3 fancybox-item">
-                <div class="fancybox__icon">
-                  <i class="icon-wishlist"></i>
-                </div>
-                <div class="fancybox__content">
-                  <h4 class="fancybox__title">Personalized Solutions</h4>
+                  <p class="fancybox__desc">
+                    Provides equipment and warehouse activity based on product
+                    needs
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <Quote />
-        <Jumbotron fluid>
-          <Container>
-            <h1>Professional & Certified Experts</h1>
-            {/* <p>
-              This is a modified jumbotron that occupies the entire horizontal
-              space of its parent.
-            </p> */}
-          </Container>
-        </Jumbotron>
 
         <Features />
         <Services />
