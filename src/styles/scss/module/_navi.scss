@@ -40,7 +40,7 @@
       > a:focus {
         color: $gray-darker;
         &:hover {
-          color: $white;
+          color: $red;
         }
       }
     }
@@ -161,7 +161,7 @@
     }
   }
   @media (min-width: 992px) {
-    border-color: transparent;
+    border-color: fade-out($white, 0.95);
     background-color: transparent;
     .navbar-brand {
       color: fade(white, 70%);

@@ -66,8 +66,31 @@ export default class Quote extends Component {
                 </nav>
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="quote">
-                    <div class="request-quote-panel">
-                      <div class="request__form-body"></div>
+                    <div>
+                      <Form onSubmit={this.handleSubmit}>
+                        <Form.Row>
+                          <Form.Group as={Col} controlId="formGridEmail">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control
+                              type="email"
+                              placeholder="Enter email"
+                            />
+                          </Form.Group>
+
+                          <Form.Group as={Col} controlId="formGridName">
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control type="name" placeholder="Name" />
+                          </Form.Group>
+                        </Form.Row>
+
+                        <Form.Group id="formGridCheckbox">
+                          <Form.Check type="checkbox" label="Check me out" />
+                        </Form.Group>
+
+                        <Button variant="primary" type="submit">
+                          Submit
+                        </Button>
+                      </Form>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="track">

@@ -88,9 +88,9 @@ export default class Header extends Component {
               </li>
               <li class="nav__item with-dropdown">
                 <Link
-                  to="/"
-                  activeClassName="nav__item-link active"
+                  to="/services"
                   class="dropdown-toggle nav__item-link"
+                  activeClassName="nav__item-link active"
                 >
                   Services
                 </Link>
