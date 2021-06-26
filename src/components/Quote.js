@@ -13,8 +13,7 @@ export default class Quote extends Component {
     this.ContactForm = React.createRef();
     this.state = {
       name: "",
-      email: "",
-      message: ""
+      email: ""
     };
   }
 
@@ -79,14 +78,23 @@ export default class Quote extends Component {
                           <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Email</Form.Label>
                             <Form.Control
+                              name="email"
                               type="email"
                               placeholder="Enter email"
+                              value={email}
+                              onChange={this.handleChange}
                             />
                           </Form.Group>
 
                           <Form.Group as={Col} controlId="formGridName">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="name" placeholder="Name" />
+                            <Form.Control
+                              type="name"
+                              name="name"
+                              placeholder="Name"
+                              value={name}
+                              onChange={this.handleChange}
+                            />
                           </Form.Group>
                         </Form.Row>
 
