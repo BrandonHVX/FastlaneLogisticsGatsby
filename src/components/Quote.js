@@ -67,7 +67,14 @@ export default class Quote extends Component {
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="quote">
                     <div>
-                      <Form onSubmit={this.handleSubmit}>
+                      <Form
+                        onSubmit={this.handleSubmit}
+                        name="contact"
+                        method="post"
+                        data-netlify="true"
+                        data-netlify-honeypot="bot-field"
+                      >
+                        <input type="hidden" name="form-name" value="contact" />
                         <Form.Row>
                           <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Email</Form.Label>
